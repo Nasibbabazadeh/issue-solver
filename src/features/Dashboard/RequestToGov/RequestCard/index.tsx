@@ -17,7 +17,7 @@ import CommentSection from "../CommentSection";
 type requestsDataType = {
   requestId: number;
   fullName: string;
-  adress: string;
+  address: string;
   status: string;
   organizationName: string;
   createDate: string;
@@ -67,7 +67,7 @@ export default function ApplyCard() {
               <div className="flex justify-between items-center">
                 <div className="flex items-center gap-2">
                   <Image src={LocationIcon} alt="location" width={20} height={20} />
-                  <span className="text-sm-alt text-blue-primary">{item.adress}</span>
+                  <span className="text-sm-alt text-blue-primary">{item.address}</span>
                 </div>
                 <div className="flex gap-2">
                   <Image src={CalendarIcon} alt="calendar" width={20} height={20} />
